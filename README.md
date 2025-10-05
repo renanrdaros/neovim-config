@@ -11,7 +11,8 @@
 - [fd](https://github.com/sharkdp/fd) - better fzf `find` utility
 - [rg](https://github.com/BurntSushi/ripgrep) - better fzf `grep` utility
 - [bat](https://github.com/sharkdp/bat) - syntax highlighted previews when using fzf's native previewer
-- [LuaLS](https://luals.github.io/) - better support for development in lua
+- [LuaLS](https://luals.github.io/) - lua language server
+- [clangd](https://clangd.llvm.org/) - C and C++ language server
 
 ## Install
 
