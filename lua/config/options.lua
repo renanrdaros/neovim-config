@@ -18,3 +18,5 @@ vim.opt.inccommand = "split"   -- show the effects of a command incrementally in
                                -- and also show partial off-screen results in a preview window
 
 vim.opt.linebreak = true       -- wrap long lines at a character in 'breakat'
+
+vim.opt.signcolumn = "yes"     -- always draw the signcolumn
