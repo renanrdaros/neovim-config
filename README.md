@@ -19,16 +19,11 @@
 To install this configuration, clone this repository into your `stdpath("config")` directory[^1]:
 
 ```sh
-git clone https://github.com/renanrdaros/nvim.git ~/.config/nvim
+git clone git@github.com:renanrdaros/neovim-config.git ~/.config/nvim
 ```
 
-> **Note:** The first time you run `nvim` again it will automatically install all the plugins used by this configuration. Just wait for the procedure to finish.
+> [!NOTE]
+> The first time you run `nvim`, it will automatically install all the plugins used by this configuration. Just wait for the procedure to finish.
 
 
 [^1]: `~/.config/nvim` on UNIX systems.
-
-## TODO
-
-Some things I want to install when I have some time to learn how to use them:
-
-- [nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects)
