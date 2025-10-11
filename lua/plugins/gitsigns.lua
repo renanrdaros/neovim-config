@@ -37,7 +37,7 @@ return {
       map('n', '<leader>Gd', gitsigns.diffthis, { desc = "Diff against the index" })
       map('n', '<leader>GD', function() gitsigns.diffthis('~') end, { desc = "Diff against the last commit" })
       map('n', '<leader>GB', gitsigns.toggle_current_line_blame, { desc = "Toggle blame annotation at the end of current line" })
-      map('n', '<leader>GW', gitsigns.toggle_word_diff, { desc = "Toggle highlighting of word differences in the buffer" })
+      map('n', '<leader>Gw', gitsigns.toggle_word_diff, { desc = "Toggle highlighting of word differences in the buffer" })
     end
   },
 }
